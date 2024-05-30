@@ -65,7 +65,7 @@ def move_to_point(x, y, z, Quater):
         rospy.logerr("fail to move (%f, %f, %f)", x, y, z)
 
 def Get_Points(msg):
-    # get x y z from /IGTL_POINT_IN
+    # get x y z from /IGTL_POINT_IN and Make sure the path is in the robot's work area and match with brain model
     x = -msg.pointdata.x/400+1
     y = -msg.pointdata.y/400
     z = msg.pointdata.z/400
