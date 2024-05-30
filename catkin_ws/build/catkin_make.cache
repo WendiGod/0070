@@ -1,0 +1,2 @@
+0070Robot:ROS-IGTL-Bridge-master:beginner_tutorials:polydata_visualizer:week8moveit
+-DCATKIN_DEVEL_PREFIX=/home/rosbox/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rosbox/catkin_ws/install -G Unix Makefiles

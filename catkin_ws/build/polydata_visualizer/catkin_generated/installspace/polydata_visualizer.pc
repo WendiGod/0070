@@ -1,0 +1,8 @@
+prefix=/home/rosbox/catkin_ws/install
+
+Name: polydata_visualizer
+Description: Description of polydata_visualizer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

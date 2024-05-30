@@ -1,0 +1,2 @@
+set(ros_igtl_bridge_MESSAGE_FILES "/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtltransform.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtlpoint.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtlpointcloud.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtlimage.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtlpolydata.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/igtlstring.msg;/home/rosbox/catkin_ws/src/ROS-IGTL-Bridge-master/msg/vector.msg")
+set(ros_igtl_bridge_SERVICE_FILES "")

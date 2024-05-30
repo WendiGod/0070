@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/rosbox/Downloads/PandaRobot.jl-master/deps/Panda/panda.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/panda.srdf
+  CONFIG:
+    author_name: Zhenguan
+    author_email: 857716965@qq.com
+    generated_timestamp: 1716306702

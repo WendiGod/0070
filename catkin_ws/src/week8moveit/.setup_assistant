@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/rosbox/7mri0070-master/ROSWeek5Tutorial/MyJointedRobot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/myArm.srdf
+  CONFIG:
+    author_name: Benson J
+    author_email: 1615838742@qq.com
+    generated_timestamp: 1709638664
