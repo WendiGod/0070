@@ -77,7 +77,7 @@ def Get_Points(msg):
     if len(Trajectory)==2:
        vector = calculate_direction_vector(Trajectory[0],Trajectory[1])
        Quater = calculate_quaternion(vector)
-       print(Quater)
+       print(Quater)#show the target quaternion
        move_to_point(Trajectory[0].x,Trajectory[0].y,Trajectory[0].z,Quater)#control robot move to entry point and start the surgery
        move_to_point(Trajectory[1].x,Trajectory[1].y,Trajectory[1].z,Quater)#control robot move to target point and finish the surgery
 
